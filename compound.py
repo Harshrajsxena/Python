@@ -1,0 +1,5 @@
+p=float(input("enter the principal amount="))
+t=int(input("enter the time in year="))
+r=float(input("enter the rate ="))
+com=p*(pow((1+r/100),t))
+print("simpil intrest on value of {} is {}".format(p,com))
